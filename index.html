@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vivek Athalye</title>
+  <meta name="description" content="Vivek Athalye — Neuroscience and neural engineering. Allen Institute for Neural Dynamics." />
+  <style>
+    :root { --max: 760px; }
+    body{
+      margin:0;
+      font: 16px/1.6 ui-serif, Georgia, "Times New Roman", Times, serif;
+      color:#111;
+      background:#fff;
+    }
+    main{
+      max-width: var(--max);
+      padding: 54px 20px;
+      margin: 0 auto;
+    }
+    h1{ font-size: 36px; margin: 0 0 10px; font-weight: 700; }
+    h2{ font-size: 18px; margin: 30px 0 10px; font-weight: 700; }
+    p{ margin: 0 0 14px; }
+    .role{ margin: 0 0 18px; }
+    .muted{ color:#444; }
+    a{ color:#0a58ca; text-decoration: none; }
+    a:hover{ text-decoration: underline; }
+    ul{ margin: 8px 0 16px 20px; padding:0; }
+    li{ margin: 6px 0; }
+    hr{ border:0; border-top:1px solid #eee; margin: 30px 0; }
+    .small{ font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Vivek Athalye</h1>
+
+    <p class="role">
+      <strong>Neuroscientist &amp; Neural Engineer</strong><br>
+      <span class="muted">Allen Institute for Neural Dynamics</span><br>
+      <a href="mailto:vivek.athalye@alleninstitute.com">vivek.athalye@alleninstitute.com</a>
+    </p>
+
+    <p>
+      I am interested in how networks of neurons generate dynamics, control actions, and learn from
+      reinforcement. I also seek to apply principles of brain function to develop neurotechnology
+      (e.g., brain-machine interfaces and neuromodulation) that can restore the ability to move,
+      communicate, and learn.
+    </p>
+
+    <p>
+      Toward these aims, I develop statistical models of neural population dynamics, methods to
+      stimulate neural populations to modulate their dynamics, and experiments that integrate and
+      test computational models.
+    </p>
+
+    <hr>
+
+    <h2>Research themes</h2>
+    <ul>
+      <li>Neural population dynamics for action and learning</li>
+      <li>Model-guided stimulation to steer circuit dynamics</li>
+      <li>Neurotechnology for restoration of movement, communication, and learning</li>
+    </ul>
+
+    <h2>Links</h2>
+    <ul>
+      <li><a href="#">Google Scholar</a></li>
+      <li><a href="#">CV</a></li>
+      <li><a href="#">Publications (PDF)</a></li>
+    </ul>
+
+    <h2>Join</h2>
+    <p>
+      If you’re interested in working with me, please email a short note describing your interests
+      and a CV. (Students: include your current program and anticipated timeline.)
+    </p>
+
+    <hr>
+
+    <p class="muted small">© <span id="y"></span> Vivek Athalye.</p>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
